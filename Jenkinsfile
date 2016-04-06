@@ -9,7 +9,7 @@ node {
     
     // Perform release if parameter says so
     if (performRelease) {
-        stage "Build"
-        echo "Building..."
+        stage "Release"
+        echo "Releasing..."
     }
 }
