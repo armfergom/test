@@ -1,3 +1,3 @@
 node {
-	echo "${scm}"
+	checkout scm
 }
