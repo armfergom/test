@@ -1,4 +1,4 @@
 node {
     // Checkout whatever branch
-    checkout scm
+    checkout scm    
 }
