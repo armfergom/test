@@ -1,5 +1,7 @@
 node {
     // Checkout whatever branch
     checkout scm 
-    echo scm.remoteRepositories
+    sh 'git config --get remote.origin.url > url'
+    def url = readFile 'url'
+    echo "${url}"
 }
